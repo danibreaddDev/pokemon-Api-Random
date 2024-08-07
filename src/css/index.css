@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+body {
+    background-image: url("/src/assets/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+
+}
+
+nav a {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #ffcb05 !important;
+    text-decoration: none;
+    text-shadow: 3px 0px #2a75bb;
+}
+
+nav a:hover {
+    transform: translate(10px, 10px);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
+    
+
+}
+
+h1{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #ffcb05 !important;
+    text-shadow: 5px 0px #2a75bb !important;
+}
+
+
+.pokeball {
+    display: block;
+    width: 48px;
+    /* Reducción del tamaño de la pokeball */
+    height: 48px;
+    /* Reducción del tamaño de la pokeball */
+    background: radial-gradient(white 4px,
+            black 4.25px 4.5px,
+            white 4.75px 6px,
+            black 6.25px 8px,
+            transparent 8.25px),
+        linear-gradient(to bottom, red 0 20px, black 20.25px 24px, white 24.25px 25px);
+    border-radius: 50%;
+    border: 2px solid black;
+    /* Reducción del borde */
+    box-shadow: inset -4px -2px 0 0 rgba(0, 0, 0, 0.2);
+    animation: fall 0.5s ease-in-out 1s,
+        shake 1.25s cubic-bezier(0.36, 0.07, 0.19, 0.97) 1.5s 3,
+        catch 0.5s ease-out 5.25s forwards;
+    margin-top: 1rem;
+}
+
+button {
+    background: none;
+    border: none;
+    transition: transform 0.5s ease-in-out 0.2s;
+}
+
+button:hover {
+    transform: rotate(360deg) scale(1);
+    cursor: pointer;
+    
+}
+
+

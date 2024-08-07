@@ -1,0 +1,14 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "pokemon project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Pamblanco Mestre",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
